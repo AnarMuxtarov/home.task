@@ -1,0 +1,13 @@
+
+.form{
+ border:1px solid yellow;
+ width:400px; 
+ min-height: 300px;
+ padding:30px;
+ margin: 40px; 
+    }
+input { 
+margin-top: 15px;
+border-radius: 5px;
+      }
+.input_group{ padding:15px}
