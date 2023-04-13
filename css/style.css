@@ -1,8 +1,9 @@
 
 .form{
- border:1px solid yellow;
+ border:7px solid yellow;
  width:400px; 
  min-height: 300px;
+ box-shadow:7px 7px  blue ;
  padding:30px;
  margin: 40px; 
     }
@@ -11,3 +12,15 @@ margin-top: 15px;
 border-radius: 5px;
       }
 .input_group{ padding:15px}
+
+.form2{
+    border:7px solid red;
+    box-shadow:7px 7px  blue ;
+    width:400px; 
+    min-height: 300px;
+    padding:30px;
+    margin: 40px; 
+}
+.group2{margin: 30px;
+                  }
+                  input{padding: 10px ;}
