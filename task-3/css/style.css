@@ -1,11 +1,12 @@
 
 .form{
  border:7px solid yellow;
- width:400px; 
+ width:300px; 
  min-height: 300px;
  box-shadow:7px 7px  blue ;
  padding:30px;
  margin: 40px; 
+ display: inline-block;
     }
 input { 
 margin-top: 15px;
@@ -16,10 +17,11 @@ border-radius: 5px;
 .form2{
     border:7px solid red;
     box-shadow:7px 7px  blue ;
-    width:400px; 
+    width:300px; 
     min-height: 300px;
     padding:30px;
     margin: 40px; 
+    display: inline-block; 
 }
 .group2{margin: 30px;
          }
@@ -33,9 +35,20 @@ input{padding: 10px ; }
     min-height: 600px;
     padding:30px;
     margin: 40px; 
+    display: inline-block;
 }
 .group3{margin:30px}
 
 .b { display: inline-block; width: 125px;}
 .a { display: inline-block; width: 155px:}
 .e{margin-right:15px;}
+
+.form4{
+    border:7px solid red;
+    box-shadow:7px 10px  blue ;
+    /* width:100px;  */
+    min-height: 600px;
+    padding:30px;
+    margin: 40px; 
+    display: inline-block;
+}
