@@ -27,8 +27,8 @@ input{padding: 10px ; }
 
 
 .form3{
-    border:7px solid yellow;
-    box-shadow:7px 7px  blue ;
+    border:7px solid red;
+    box-shadow:7px 10px  blue ;
     width:400px; 
     min-height: 600px;
     padding:30px;
@@ -38,3 +38,4 @@ input{padding: 10px ; }
 
 .b { display: inline-block; width: 125px;}
 .a { display: inline-block; width: 155px:}
+.e{margin-right:15px;}
