@@ -1,10 +1,11 @@
     .boxes{
         position: relative;
-        border: 1px solid red;
+        border: 1px solid white;
         width: 1043px;
         height: 782px;
         margin: auto;
         padding-right:10px;
+        background-color:rgb(197, 193, 193);
     }
     .box1{
         border-radius:50%;
