@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{ 
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: white;
+    justify-content: space-around
+    
+}
+ul{ list-style:none ;  ;
+    
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+ 
+  
+}
+
+.menu{
+    display: flex;
+
+
+}
+
+a{text-decoration: none; color: white;}
+.menu-item{ 
+    margin-left: 25px;}
+
+
+main{
+    background-color: blue;
+    height: 500px;
+}
+
+
+.images2{width: 500px}
+.boxes{display: flex; color: white; align-items: center; margin: 0 75px;  justify-content: center;} 
+.text{ padding: 60px 0;
+    margin-right: 10px;
+    
+}
+  
+
+
+.navbar-1{display: flex;
+    align-items: center;
+    margin:0 75px;
+    padding: 0 90px;
+   
+}
+.logo{justify-content: center;   }
+
+.btn{color: blue;
+    padding:10px;
+    border-radius:8%;
+background-color: white;border: none;}
+    .btn:hover{
+        color: white;
+        background-color: blue;
+              
+       }
+
+
+
+
+
+
+
+.around{display: flex;}
+.home{width: 100%;
+    height: 700px;
+background-color: white;}
+.boxxes{
+    display: flex;
+    justify-content: center;
+}
+
+.boxx2{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxx1{
+    margin-top:80px ;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    
+    }
+    .size{ margin: 20px;}
+    .button{ padding:5px ; border:none}
+.button:nth-child(1){background-color: blue; border-radius:5% ; color: white;}
+.button:nth-child(2):hover{color: blue;}
+.button:nth-child(3):hover{color: blue;}
+
+
+h2 {padding:15px 0;}
+.child_box{
+        background-color: white;
+        text-align: center;
+        padding: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+.Room{
+    background-color:white ;
+    height: 1150px;
+   
+}
+.Parent{ display: flex; 
+justify-content: center;
+flex-direction: row; 
+
+ }
+
+.Child{
+    height:400px;
+    width: 500px;
+    background-color: white;
+    justify-content: flex;
+    
+
+    
+}
+.children_box{display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+
+
+}
+ 
+h4{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.child_itemss {
+    margin-top: 30px;
+    font-size: 20px;
+}
+i{
+    border-radius: 50%;
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 40px;
+    margin-top: 30px;
+    color: blue;
+    background-color: white;
+
+}
+    
+   .wraper
+   {
+     margin:40px 30px;
+    }
+   
+    i:hover{ 
+        background-color: blue;
+        color: white;
+    }
+
