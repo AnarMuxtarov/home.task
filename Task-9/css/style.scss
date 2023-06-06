@@ -82,6 +82,158 @@ html {
   .settingss {
     display: block !important;
   }
+
+
+  .travel_content {
+   
+    @include d-flex(flex ,center,_,wrap,_);
+    
+  }
+
+  .travel_content_left {
+    display: block;
+  
+    
+   
+  }
+
+  .travel_content_left_items{
+ 
+   
+
+  }
+  .travel_content_big_title{
+  
+font-size: 2rem;
+
+  }
+  .travel_content_page_title{
+  font-size: 1.5rem;
+  }
+
+
+
+
+  .travel_content_left_items i{
+    
+   
+   
+  }
+
+
+  .travel_content_right {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300%;
+  }
+ 
+
+
+  .card_top_header{
+    margin-top: 1050px;
+
+
+  }
+
+  .header_servises{
+    margin-top: 40px;
+  }
+  
+  .header_servises{
+    margin-top:10px;
+   width: 100%;
+   height: 200px;
+  }
+ 
+
+  .services_contents_boxes{
+    display: flex;
+    justify-content: center;
+    
+   
+
+  }
+  
+
+  .services_content_box i{
+   font-size: 40px;
+  
+
+  }
+
+
+  iframe{width: "750"; height: "500";}
+
+  .card_bottom{
+ margin-top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  img{width: 100%;}
+
+  .header_gallery{
+
+    margin-top: 150px;
+
+
+  }
+
+  .header_package{
+
+    margin-top: 900px;
+  }
+
+  .background_image{
+    margin-top: 300px;
+
+  }
+
+.profil_managers{
+  display: flex;
+flex-wrap: wrap;
+
+}
+
+.profil_managers_content{
+
+}
+
+.profil_managers_content_image{
+  width:200px ;
+  height:200px ;
+}
+
+.profil_managers_content_image img{
+
+  width: 100%;
+}
+
+.blog_section_content{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.contact_top{
+margin-top: 150px;
+
+}
+.footer{
+  margin-top: 100px;
+
+}
+
+
+
+
+
+
+
+
+
 }
 
 .navbarr {
@@ -119,10 +271,6 @@ html {
     
       position: relative;
       padding: 1.87rem 0;
-  
-  
-  
-  
     }
   }
 
@@ -349,110 +497,6 @@ html {
 // end section travel content+
 
 
-@media screen and (max-width: 768px) {
-  body,
-  html {
-    font-size: 10px;
-  }
-
-  .travel_content {
-   
-    @include d-flex(flex ,center,_,wrap,_)
-  }
-  .travel_content_left {
-    display: block;
-   
-  }
-  .travel_content_right {
-    width: 100%;
-  }
-
-  iframe {
-    width: 100%;
-    height: 300%;
-  }
-
-  .cards {
-    margin-top: 40rem;
-  }
-
-  .servicess{
-    margin-top: 1500px;
-
-  }
-
-  .services_contents_boxes{
-    display: grid;
-    grid-template-columns: 1fr ;
-
-  }
-
-
-  iframe{width: 100%;}
-
-  .card_bottom{
- margin-top: 500px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  img{width: 100%;}
-
-  .header_gallery{
-
-    margin-top: 150px;
-
-
-  }
-
-  .header_package{
-
-    margin-top: 900px;
-  }
-
-  .background_image{
-    margin-top: 300px;
-
-  }
-
-.profil_managers{
-  display: flex;
-flex-wrap: wrap;
-
-}
-
-.profil_managers_content{
-
-}
-
-.profil_managers_content_image{
-  width:200px ;
-  height:200px ;
-}
-
-.profil_managers_content_image img{
-
-  width: 100%;
-}
-
-.blog_section_content{
-  display: flex;
-  flex-wrap: wrap;
-
-}
-.contact_top{
-margin-top: 150px;
-
-}
-.footer{
-  margin-top: 100px;
-
-}
-
-
-}
-
-
 
 // start cads
 .cards {
@@ -592,8 +636,10 @@ margin-top: 150px;
 
       .services_contents_boxes {
         padding-left: 6.25rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
 
 
         .services_content_box {
