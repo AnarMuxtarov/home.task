@@ -1,0 +1,7 @@
+// var button=document.getElementById(title)
+var titlee=document.querySelector(#title)
+var pages=document.getElementsByTagName('p')
+// var buttn=document.getElementById('btn')
+console.log(btn)
+console.log(pages)
+console.log(titlee)
